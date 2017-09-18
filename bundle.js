@@ -4,6 +4,7 @@ const outputResultsBtn = document.querySelector('#output-results-btn');
 const bodyArea = document.querySelector('#textarea2');
 const conclusionArea = document.querySelector('#textarea3');
 const resultsContainer = document.querySelector('#results-container')
+const copyTextareaBtn = document.querySelector('.copy-text');
 //let fullTexts = require('./data');
 
 //Materialize stuff
@@ -276,7 +277,16 @@ function displayResults() {
 	resultsContainer.innerHTML = `${randomText.value}
 	 															${bodyArea.value}
 															  ${conclusionArea.value}`;
-}
+};
+
+function copyToClipboard(text) {
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+};
+
 
 outputResultsBtn.addEventListener('click', displayResults);
 randomTextBtn.addEventListener('click', randomizeText);
+copyTextareaBtn.addEventListener('click', function(event) {
+
+	copyToClipboard(resultsContainer.innerHTML);
+});
