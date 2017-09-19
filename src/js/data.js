@@ -1,4 +1,4 @@
-module.exports = [`<p>A fémiparba való beépülés a stabilitás és a bizalom sugározását követeli. Önnek egy jó dizájnra lesz szüksége, hogy jó benyomást tudjon keltetni.</p>
+const fullTexts = [`<p>A fémiparba való beépülés a stabilitás és a bizalom sugározását követeli. Önnek egy jó dizájnra lesz szüksége, hogy jó benyomást tudjon keltetni.</p>
 
 <p>Szerencsére az Acélmű WordPress témák mindennel rendelkeznek ahhoz, hogy azt adják meg Önnek, amire szüksége van.</p>
 
@@ -204,3 +204,5 @@ module.exports = [`<p>A fémiparba való beépülés a stabilitás és a bizalom
 // ``,
 
 ];
+
+module.exports = fullTexts;

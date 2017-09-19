@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Text Randomizer</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="src/css/style.css">
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -13,7 +13,8 @@
 	</div>
 
 	<div class="row">
-		<div class="col s4 offset-s1  randomize-form ">
+
+		<div class="col s10 offset-s1 l4 offset-l1  randomize-form ">
 			<h4>Press Buttom to Randomize</h4>
 			<button class="waves-effect waves-light btn z-depth-2" id="random-text-btn">Random Text</button>
 			<button class="waves-effect waves-light btn z-depth-2" id="output-results-btn">Output the Result</button>
@@ -46,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="col s5 offset-s1 randomize-results">
+		<div class="col s10 offset-s1 l5 offset-l1 randomize-results">
 			<h4>Results</h4>
 			<button class="copy-text waves-effect waves-light btn z-depth-2 ">Copy Textarea</button>
 			<div class="card-panel white" id="results-container"></div>
@@ -58,6 +59,6 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-	<script src="bundle.js"></script>
+	<script src="dist/bundle.js"></script>
 </body>
 </html>

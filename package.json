@@ -1,0 +1,19 @@
+{
+  "name": "text-randomizer",
+  "version": "0.0.5",
+  "description": "a text rendomizer tool",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chreznor/Text-Randomizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chreznor/Text-Randomizer/issues"
+  },
+  "homepage": "https://github.com/Chreznor/Text-Randomizer#readme"
+}
