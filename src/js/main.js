@@ -43,7 +43,6 @@ splitTexts(fullTexts);
 
 function randomizeText() {
 	const selectedValue = parseFloat(document.getElementById('select_path').value);
-	console.log(selectedValue);
 	let i = 0;
 
 	randomText.value = dividedTexts.intro[Math.floor(Math.random() * dividedTexts.intro.length)] + '</p>';
@@ -84,3 +83,5 @@ copyTextareaBtn.addEventListener('click', function(event) {
 
 	copyToClipboard(resultsContainer.innerHTML);
 });
+
+console.log(dividedTexts.intro.length, dividedTexts.bodyParts.length, dividedTexts.conclusion.length);
